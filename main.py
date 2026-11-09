@@ -1,7 +1,7 @@
 import tkinter as tk
 from pygame import mixer
 
-from entity.entity import Entity
+from src.entity.entity import Entity
 from world import World
 
 
@@ -28,7 +28,6 @@ class Game():
         self.root.resizable(False, False)
 
         # World
-        self.world
 
         # Player
 
